@@ -1,3 +1,4 @@
+import requests
 import io
 import datetime
 import numpy as np
@@ -9,9 +10,9 @@ warnings.filterwarnings('ignore')
 
 
 def main():
-    # profile_icon = "https://raw.githubusercontent.com/sjpradhan/scale_of_finance/master/salary.png"
+    profile_icon = "https://raw.githubusercontent.com/sjpradhan/aifis_transaction/master/transaction.png"
 
-    # st.set_page_config(page_title="SOF-Upload",page_icon = profile_icon)
+    st.set_page_config(page_title="Transaction-master",page_icon = profile_icon)
 
     st.header(":rainbow[Upload Transaction Master] 📁")
 
